@@ -1,0 +1,70 @@
+
+html, body :hover{ font-family: "Noto Sans", sans-serif;
+    width: 78% ;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 35px;
+}
+
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background-color: #111;
+}
+
+
+.active {
+    background-color: #04AA6D;
+}
+
+
+.navbar li {
+    border-right: 1px solid #bbb;
+}
+
+
+.navbar li:last-child {
+    border-right: none;
+}
+
+.TheImage1{
+    width: 250px;
+    line-height: 1.5;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Style the image within the paragraph */
+.TheImage1 img{
+    border: 3px solid purple;
+    width: 40%;
+    box-shadow: 6px 4px 6px;
+    background-color: rgb(rgb(144, 26, 26), green, blue)
+}
+
+.TheImage2 img.resize {
+        max-width: 50%;
+        max-height: 50%;
+
+}
